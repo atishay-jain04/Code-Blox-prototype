@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Recyclopedia</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="bg-gradient-to-r from-teal-600 to-teal-400 shadow-md fixed top-0 left-0 w-full z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+          <!-- Logo and Brand -->
+          <div class="flex items-center">
+            <img src="logo.png" alt="Logo" class="w-12 h-auto"> <!-- Resized logo to fit better -->
+            <a href="./homepage.html" class="ml-4 text-3xl font-extrabold text-white tracking-wide">Recyclopedia</a>
+          </div>
+          
+          <!-- Navigation Links -->
+          <div class="space-x-6">
+            <a href="./homepage.html" class="text-white hover:text-teal-200 transition duration-300">Home</a>
+            <a href="./material.html" class="text-white hover:text-teal-200 transition duration-300">Materials</a>
+            <a href="./center.html" class="text-white hover:text-teal-200 transition duration-300">Centers</a>
+            <a href="./schedules.html" class="text-white hover:text-teal-200 transition duration-300">Schedules</a>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- Add this extra top padding to your main content -->
+      <div class="pt-20">
+        <!-- Your page content goes here -->
+      </div>
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-r from-teal-600 to-teal-400 text-white py-24">
+    <div class="container mx-auto px-6 text-center">
+      <h1 class="text-5xl font-extrabold leading-tight">Make Recycling a Habit, Not a Task</h1>
+      <p class="mt-6 text-lg">Join the movement to make the world greener, one item at a time. Find recycling centers, learn tips, and more.</p>
+      <a href="#"  class="mt-8 inline-block bg-white text-teal-600 py-3 px-8 rounded-full font-bold hover:bg-teal-100 transition duration-300">Start Now</a>
+    </div>
+  </header>
+  
+  <!-- Search Bar -->
+  <section class="py-10 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <div class="bg-white p-8 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-extrabold text-gray-800 mb-4">What are you looking to recycle?</h2>
+        <div class="flex items-center space-x-4">
+          <input type="text" placeholder="Search for materials or centers" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-600">
+          <button class="bg-teal-600 text-white px-8 py-4 rounded-lg hover:bg-teal-500 transition duration-300">Search</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Features Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold text-teal-600">Our Best Features</h2>
+      <p class="mt-6 text-gray-600">Making recycling easier for everyone, every day.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
+  
+        <!-- Feature 1 -->
+         <a href="material.html">
+        <div class="bg-teal-50 p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+          <img src="1705351.png" alt="Materials Guide" class="mx-auto w-24 h-auto mb-6">
+          <h3 class="text-2xl font-semibold text-teal-600">Materials Guide</h3>
+          <p class="mt-4 text-gray-600">Get step-by-step instructions on how to recycle different materials like paper, plastics, and metals.</p>
+        </div>
+    </a>
+  
+        <!-- Feature 2 -->
+        <a href="center.html">
+        <div class="bg-teal-50 p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+          <img src="pic-removebg-preview.png" alt="Local Centers" class="mx-auto w-24 h-auto mb-6">
+          <h3 class="text-2xl font-semibold text-teal-600">Find Local Centers</h3>
+          <p class="mt-4 text-gray-600">Use our interactive map to locate the nearest recycling centers and learn about their services.</p>
+        </div>
+        </a>
+  
+        <!-- Feature 3 -->
+        <a href="schedules.html">
+            <div class="bg-teal-50 p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <img src="spiral-calendar-emoji-2048x2039-kbx4wd0j.png" alt="Schedules" class="mx-auto w-24 h-auto mb-6">
+                <h3 class="text-2xl font-semibold text-teal-600">Recycling Schedules</h3>
+                <p class="mt-4 text-gray-600">Keep track of your area's collection days with our regularly updated schedules.</p>
+            </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Us Section -->
+  <section class="bg-gray-200 py-16">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold text-teal-600">We’re Here to Help</h2>
+      <p class="mt-6 text-gray-600">Have questions? Get in touch with us anytime.</p>
+      <form class="mt-8 space-y-6">
+        <input type="text" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-600">
+        <input type="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-600">
+        <textarea placeholder="Your Message" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-600"></textarea>
+        <button id="send" type="submit" class="bg-teal-600 text-white px-8 py-4 rounded-lg hover:bg-teal-500 transition duration-300">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Call to Action -->
+  <section class="bg-teal-700 text-white py-16">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-extrabold">Take Action Today!</h2>
+      <p class="mt-6">Start earning rewards for your recycling efforts and make a real impact in your community.</p>
+      <a href="#" class="mt-8 inline-block bg-white text-teal-600 py-4 px-8 rounded-full font-bold hover:bg-teal-100 transition duration-300">Sign Up</a>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-1">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2024 Recycl0pedia. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
